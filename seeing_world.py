@@ -1,0 +1,20 @@
+
+world_tour = ['CCCC lake','AAAA flowers','YYYY lake','GGGG valley','FFFF lake']
+print("\n01",world_tour)
+print("\nSorted list:\n02",sorted(world_tour))
+print("\nOriginal list:\n03",world_tour)
+print("\nSorted reverse list:\n04",sorted(world_tour,reverse=True))
+print("\nOriginal list:\n05",world_tour)
+world_tour.reverse()
+print("\nReversed list:\n06",world_tour)
+world_tour.reverse()
+print("\n Again Original list:\n07",world_tour)
+world_tour.sort()
+print("\nPermananet sorted list:\n08",world_tour)
+world_tour.sort(reverse=True)
+print("\nPermananet reverse sorted list:\n09",world_tour)
+
+length = len(world_tour)
+print("\nNumber of places to visit:",length)
+print("OR")
+print("Number of places to visit:",len(world_tour))
